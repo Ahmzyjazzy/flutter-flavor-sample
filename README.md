@@ -27,6 +27,18 @@ This example uses three flavors
 
 https://youtu.be/Vhm1Cv2uPko?t=118
 
+## Setup launcher.json file in .vscode folder
+https://youtu.be/Vhm1Cv2uPko?t=136
+
+## Error while running using vscode launcher.json
+Launching lib/main_development.dart on <Emmulator e.g iPhone 13> in debug mode...
+lib/main_development.dart:1
+
+Exception: The Xcode project does not define custom schemes. You cannot use the --flavor option.
+Exited (sigterm)
+
+
+
 
 
 
