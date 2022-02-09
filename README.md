@@ -31,15 +31,10 @@ https://youtu.be/Vhm1Cv2uPko?t=118
 https://youtu.be/Vhm1Cv2uPko?t=136
 
 ## Error while running using vscode launcher.json
-Launching lib/main_development.dart on <Emmulator e.g iPhone 13> in debug mode...
-lib/main_development.dart:1
+```Launching lib/main_development.dart on <Emmulator e.g iPhone 13> in debug mode... lib/main_development.dart:1 Exception: The Xcode project does not define custom schemes. You cannot use the --flavor option. Exited (sigterm)```
 
-Exception: The Xcode project does not define custom schemes. You cannot use the --flavor option.
-Exited (sigterm)
-
-
-
-
+Follow the steps in adding platform specific settings for Android and IOS flavor below
+https://youtu.be/Vhm1Cv2uPko
 
 
 ## Getting With Flutter
