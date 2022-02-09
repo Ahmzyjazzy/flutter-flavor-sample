@@ -36,6 +36,14 @@ https://youtu.be/Vhm1Cv2uPko?t=136
 Follow the steps in adding platform specific settings for Android and IOS flavor below
 https://youtu.be/Vhm1Cv2uPko
 
+## Add app icons
+https://youtu.be/Vhm1Cv2uPko?t=325
+
+Using the flutter_launcher_icons package 
+```flutter pub run flutter_launcher_icons:main -f flutter_launcher_icons*```
+
+Follow this guide to complete remaining actions for IOS app icon
+https://youtu.be/Vhm1Cv2uPko?t=410
 
 ## Getting With Flutter
 
