@@ -1,5 +1,9 @@
 # Flutter flavor example
 
+![ios](/screenshots/ios-full.png?raw=true "ios")
+
+![android](/screenshots/android-full.png?raw=true "android")
+
 Flavors are typically used to build your app for different environments such as dev and prod.
 
 A sample flutter project to showcase how to create 
@@ -51,6 +55,7 @@ But because this command might be long to type everytime. You need to setup a **
 
 See reference below
 ![launch.json](/.vscode/launch.json?raw=true "launch.json")
+
 ![launch.json image](/screenshots/1.launcherjson.png?raw=true "launch.json image")
 
 ### Select the specific flavor to run from the run tab in vscode
@@ -95,6 +100,7 @@ Place the code snippet in the reference below inside the **android block** of th
 
 See reference below
 ![build.gradle](/android/app/build.gradle?raw=true "build.gradle")
+
 ![build.gradle image](/screenshots/4.android_flavor_build.png?raw=true "build.gradle image")
 
 ### STEP 4.1.2 (ANDROID flavor setup): Update the android:label in the android/app/src/main/AndroidManifest.xml file
@@ -102,6 +108,7 @@ Update *android:label* to ```android:label="@string/app_name"```
 
 See reference below
 ![AndroidManifest.xml](/android/app/src/main/AndroidManifest.xml?raw=true "AndroidManifest.xml")
+
 ![AndroidManifest.xml image](/screenshots/5.android_flavor_manifest.png?raw=true "AndroidManifest.xml image")
 
 ## STEP 4.2: IOS flavor setup
