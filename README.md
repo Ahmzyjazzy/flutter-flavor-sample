@@ -1,4 +1,6 @@
-# flutter-flavor-sample
+# Flutter flavor example
+
+Flavors are typically used to build your app for different environments such as dev and prod.
 
 A sample flutter project to showcase how to create 
 
@@ -57,7 +59,7 @@ See reference below
 ### You might notice the error below when trying to run the specific build from launch json
 ![launcher run error](/screenshots/3.launcherjson_error.png?raw=true "launch run error")
 
-# ----- START SETTING UP FLAVOR/SCHEME FOR DYNAMIC APP_NAME  (ANDROID/IOS) --------
+### ----- START SETTING UP FLAVOR/SCHEME FOR DYNAMIC APP_NAME  (ANDROID/IOS) --------
 
 ## STEP 4: Setup platform (Android/IOS) specific flavor to solve the error above
 * IOS refer to flavor as scheme to represent different build target
@@ -220,10 +222,10 @@ BEFORE
 AFTER
 ![update bundel display name](/screenshots/23.iosn_after_bundle_dn.png.png?raw=true "update bundel display name")
 
-# ----- DONE WITH SETTING FLAVOR/SCHEME FOR DYNAMIC APP_NAME (ANDROID/IOS) ----------------
+### ----- DONE WITH SETTING FLAVOR/SCHEME FOR DYNAMIC APP_NAME (ANDROID/IOS) ----------------
 
 
-# ---- START SETUP FLAVOR/SCHEME FOR FOR DYNAMIC APP_ICON (ANDROID/IOS) ---------------------
+### ---- START SETUP FLAVOR/SCHEME FOR FOR DYNAMIC APP_ICON (ANDROID/IOS) ---------------------
 
 ## STEP 5: Setup app and launcher icon for Android and IOS respectively
 To setup app and launcher icon for Android/IOS using flavor/scheme we use the **flutter_launcher_icons** package
@@ -283,6 +285,8 @@ Once app and launcher icons are generated. IOS requires you to update the refere
 * Then toggle to expand the *Primary App Icon Set Name* accordion on the search result list. If you didn't see *Primary App Icon Set Name* as the value might be different in your Xcode. Alternatively check for *Asset Catalog App Icon Set Name*
 
 ![flutter_launcher_icons-production](/screenshots/24.ios_icon_name_update.png?raw=true "flutter_launcher_icons-production")
+
+### ---- END SETUP FLAVOR/SCHEME FOR FOR DYNAMIC APP_ICON (ANDROID/IOS) ---------------------
 
 ## Getting With Flutter
 
