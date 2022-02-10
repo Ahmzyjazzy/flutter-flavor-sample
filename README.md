@@ -1,4 +1,4 @@
-# flavor_test
+# flutter-flavor-sample
 
 A sample flutter project to showcase how to create 
 
