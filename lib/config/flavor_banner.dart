@@ -41,7 +41,7 @@ class FlavorBanner extends StatelessWidget {
           ),
         ),
       ),
-      onLongPress: () {
+      onTap: () {
         showDialog(
           context: context,
           builder: (BuildContext context) {

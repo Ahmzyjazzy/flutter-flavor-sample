@@ -1,3 +1,4 @@
+import 'package:flavor_test/config/flavor_banner.dart';
 import 'package:flutter/material.dart';
 
 class App extends StatelessWidget {
@@ -11,13 +12,15 @@ class App extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      debugShowCheckedModeBanner: false,
+      debugShowCheckedModeBanner: true,
       title: flavor,
-      home: Scaffold(
-        appBar: AppBar(
-          title: Text(flavor),
+      home: FlavorBanner(
+        child: Scaffold(
+          appBar: AppBar(
+            title: Text(flavor),
+          ),
+          body: Container(),
         ),
-        body: Container(),
       ),
     );
   }

@@ -19,12 +19,12 @@ This example uses three flavors
 - production
 
 ## To run each flavor target with their customized app_name and app_icon
-```You will add the --flavor flag. Note that there is an extra setup specifically for android and ios for this steps```
 
 - flutter run --target lib/main_development.dart --flavor development
 - flutter run --target lib/main_staging.dart --flavor staging
 - flutter run --target lib/main_production.dart --flavor production
 
+```You will add the --flavor flag to specify platform specific flavor target. Note that this requires an extra setup steps to follow; specifically for android and ios```
 
 You can follow the guide in this ReadMe 
 or
